@@ -1,0 +1,16 @@
+div.twitter{
+	p.tweet{
+	    color: rgba(0,0,0,.8);
+    	font-size: .9rem;
+		small{
+			em{
+			    font-style: italic;
+				display: inline-block;
+    			margin-bottom: 10px;
+			}
+		}
+		a{
+		    color: $naranja-primario;
+		}
+	}
+}

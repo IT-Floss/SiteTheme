@@ -1,0 +1,28 @@
+div.proximos-eventos{
+	table.evento{
+		border: 1px solid rgba(0,0,0,.1);
+	    font-size: .7rem;
+	    width: 100%;
+		tbody{
+			tr{
+				th{
+    				text-align: right;
+				    background: rgb(222, 222, 222);
+				    padding: 10px;
+				}
+				td{
+					padding: 8px;
+					min-width: 65px;
+    				border-bottom: 1px solid rgba(0,0,0,0.1);
+    				a{
+    					color: inherit;
+    				}
+				}
+			}
+			tr.trHover:hover{
+				background: $naranja-primario;
+				color: $blanco;
+			}
+		}
+	}
+}

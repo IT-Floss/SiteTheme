@@ -1,0 +1,101 @@
+// Google Fonts
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto:300,300i,400,400i,700,700i);
+
+// Variables
+@import 'variables';
+
+// Mixins
+@import 'css3-mixins';
+
+
+// Reset 
+@import 'reset';
+
+
+/* General
+ * --------------------------------------- */
+body{font-family: 'Roboto', sans-serif;}
+body.negro{color: $blanco; background: $gris;}
+body.blanco{ background: $blanco; color: rgba(0,0,0,0.8);}
+h1, h2, h3, h4{font-family: 'Roboto Condensed', sans-serif;}
+a, p, h1{text-shadow: 1px 1px 1px rgba(0,0,0,0.004) !important; text-rendering: optimizeLegibility !important; -webkit-font-smoothing: antialiased !important;-moz-osx-font-smoothing: grayscale !important;}
+.transicion{-webkit-transition: all cubic-bezier(0.000, 1, 0.275, 0.990) .3s; -moz-transition: all cubic-bezier(0.000, 1, 0.275, 0.990) .3s; -o-transition: all cubic-bezier(0.000, 1, 0.275, 0.990) .3s; transition: all cubic-bezier(0.000, 1, 0.275, 0.990) .3s; }
+.cf:before,.cf:after{content:" ";display:table}.cf:after{clear:both}.cf{*zoom:1}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+::selection {background: #d68736; color: white;}
+::-moz-selection {background: #d68736; color: white;}
+h1{font-size: 2rem; font-weight: bolder;}
+hr.hr2 {border-color: rgba(0,0,0,0.1); position: relative; width: 80%; margin: 50px auto; }
+hr.hr3 {border-color: rgba(0,0,0,0.1); width: 80%; margin: 15px auto; }
+p {font-size: $fuente-normal;}
+
+img{
+	max-width: 100%;
+    display: block;
+}
+
+.the_champ_sharing_container.the_champ_horizontal_sharing{
+	margin-top: 30px;
+}
+
+
+// Legacy (pagina actual)
+@import 'legacy';
+
+// Blog
+@import 'blog';
+
+// Cabecera
+@import 'cabecera';
+
+// Grilla
+@import 'grid';
+
+// Eventos
+@import 'eventos';
+
+// Posteo (single/entrada)
+@import 'entrada';
+
+// Twitter
+@import 'twitter';
+
+// Footer
+@import 'footer';
+
+// Tooltips
+@import 'tooltips';
+
+
+/* CoC
+ ----------------------------------------- */
+.contenido{position: relative;width: 650px;margin: 0 auto;color: rgba(0,0,0,.7);padding: 75px 25px 25px 25px;}
+.contenido hr{border-color: rgba(0,0,0,.1);}
+.contenido.coc h1{font-size: 2rem; }
+.contenido.coc ul{padding-left: 2rem; list-style: disc; }
+.contenido.coc ul li{margin-bottom: 5px; }
+.contenido.coc ul li a, .contenido.coc p a, .contenido.coc p a:visited, .contenido.coc p a:link{color: inherit;border-bottom: 1px dashed rgba(0,0,0,.7);padding: 0 5px;}
+.contenido.coc p{margin: 15px 0; }
+.contenido.coc .volver{position: relative; text-align: center; margin: 60px; }
+/* .volver a{
+	display: inline-block;
+	padding: 15px 25px;
+	border: 1px solid rgba(0,0,0,.2);
+	border-radius: 5px;
+	color: rgba(0,0,0,.7);
+}
+.volver a:hover{background: #d68736; border-color: #d68736; color: white; } */
+
+.contenido .logo{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.contenido .logo img{}
+
+/* Media queries
+ * --------------------------------------- */
+@media (max-width: 650px){
+	.contenido{width: 100%; padding-top: 30px;}
+	.contenido.coc h1{font-size: 1.6rem; font-weight: 800;}
+}
+
+

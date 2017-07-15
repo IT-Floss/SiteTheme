@@ -1,0 +1,31 @@
+
+/* Secciones
+ ----------------------------------------- */
+.section{padding: 100px;}
+.section h1{font-weight: bolder;padding-top: 50px;font-size: 3rem;/* text-align: center; */margin-bottom: 50px;color: white;text-transform: uppercase;}
+.section h2{ font-size: 2rem; color: white; margin-bottom: 15px; text-transform: uppercase; }
+.section .sub{height: 3px;background: #c27a31;width: 115px;margin-bottom: 50px;}
+.section p.participar{}
+.section p.presentacion{/* text-align: center; */font-size: 1.3rem;max-width: 760px;position: relative;margin: 0 0 50px; font-weight: 300;}
+.section p.presentacion .p_red{color: #fff;border-bottom: 1px dashed #fff;padding: 0 5px;}
+.section p.presentacion .p_red:hover{color: #d68736;}
+.section a.boton{display: inline-block; color: white; padding: 15px 25px; border: 1px solid rgba(255,255,255,.4); border-radius: 5px; }
+.info{position: relative; top: 50%; transform: translateY(-50%); }
+a.boton.naranja:hover, a.boton.naranja:focus, a.boton.naranja:active{background: #d68736; border-color: #d68736; }
+a.boton.blanco:hover, a.boton.blanco:focus, a.boton.blanco:active{background: #fff; border-color: #fff; color: #d68736; }
+.section .redes{ margin: 0 0 50px 0; }
+.section .redes .red{font-size: 3rem;color: #fff;margin: 0 15px;}
+.section .cont_galeria{}
+.section:last-child{}
+.section .logos{}
+.section .logos a{display: inline-block; } 
+.section .logos a .logo{}
+.section .persona{position: relative;float: left;width: 200px;margin-right: 30px;padding: 5px;}
+.section .persona .imagen{position: relative; width: 180px; height: 180px; background: blue; border-radius: 100%; margin: 0 auto; }
+.section .persona .nombre-charla{text-align: center;margin-top: 15px;font-size: 1.1rem;}
+.section .persona .descarga{text-align: center;position: relative;display: inherit;margin: 10px auto;text-decoration: none;color: #f0f0f0;border-bottom: 1px dashed #fff;width: 125px;padding: 5px 0;}
+.section .persona .descarga:hover, h2 span a:hover{color: #d68736;}
+h2 span{padding-left: 50px; font-size: initial;}
+h2 span a{text-align: center;position: relative;display: inherit;margin: 10px auto;text-decoration: none;color: #f0f0f0;border-bottom: 1px dashed #fff;width: 125px;padding: 5px 0;}
+h2 span a i{margin-right: 10px;}
+
